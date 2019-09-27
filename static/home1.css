@@ -1,0 +1,33 @@
+body{
+	background-color: lightblue;
+}
+
+	h1 {
+	color: black;
+	text-align: center;
+	}
+
+	p {
+	font-family: verdana;
+	font_size: 20px;
+	}
+div {
+	border-radius: 5px;
+	backgroun-color: #f2f2f2;
+	padding: 20px;
+}
+	input[type = text] {
+		width: 50%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		box-sizing: border-box;
+	}
+
+	input[type = button], input[type = submit], input[type = reset] {
+		background-color: #4CAF50;
+		border: none;
+		color: white;
+		text-decoration: none;
+		margin: 4px 2px;
+		cursor: pointer;
+	}
