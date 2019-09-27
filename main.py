@@ -15,7 +15,7 @@ app = Flask(__name__)
 #Input page Page
 @app.route('/')
 def home():
-    return render_template("home.html")    
+    return render_template("index.html")    
 
 # result page
 @app.route("/recommendation", methods = ["GET", "POST"])
